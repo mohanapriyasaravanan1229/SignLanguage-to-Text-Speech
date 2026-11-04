@@ -1,0 +1,7 @@
+*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#182235;font-family:Arial,sans-serif}
+.container{width:min(900px,92%);margin:40px auto}.eyebrow{color:#5267c9;font-size:12px;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(30px,5vw,46px);margin-bottom:8px}.intro,.note{color:#667085}
+.panel{background:white;border-radius:16px;padding:22px;margin:22px 0;box-shadow:0 8px 28px #1b2b4612}
+video{display:block;width:100%;max-height:420px;background:#111827;border-radius:12px}
+button{border:0;border-radius:9px;padding:12px 18px;background:#4057c8;color:white;font-weight:bold;cursor:pointer}
+.secondary{background:#26354f}.result{padding:12px;background:#f3f6fb;border-radius:8px}.note{font-size:13px;line-height:1.5}

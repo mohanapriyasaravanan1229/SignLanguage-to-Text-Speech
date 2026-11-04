@@ -1,0 +1,1 @@
+flask\nopencv-python\nmediapipe\nnumpy\nscikit-learn\npandas\njoblib\n

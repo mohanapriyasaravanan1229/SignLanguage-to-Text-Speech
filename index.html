@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f2f5f9;
+            padding: 20px;
+        }
+        h1 {
+            color: #243b55;
+        }
+        img {
+            width: 90%;
+            max-width: 640px;
+            border: 4px solid #243b55;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Language to Text Translator</h1>
+    <p>Show ASL letter A or B in front of your camera.</p>
+
+    <img src="{{ url_for('video') }}" alt="Live camera feed">
+
+    <p>The predicted letter will appear on the camera feed.</p>
+</body>
+</html>
